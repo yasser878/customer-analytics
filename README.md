@@ -1,46 +1,42 @@
-```bash
-#docker build image
+# Customer Analytics Project
+
+## 📌 Description
+This project analyzes customer data using Python and Docker.
+
+## 🚀 Features
+- Data ingestion
+- Data preprocessing
+- Generate insights
+- Data visualization
+- Clustering
+
+## 🛠️ Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Docker
+
+## ▶️ How to Run
+
+### 1. Build Docker Image
 docker build -t analytics_image .
 
-#docker run image
-docker run -it --name bigdata library/analytics_image:latest
+### 2. Run Container
+docker run -it --name analytics_container analytics_image
 
-#docker tag image
-docker tag library/analytics_image:latest mariveatef/analytics_image:latest
+### 3. Inside Container
+python ingest.py adult.csv
 
-#docker push image
-docker push mariveatef/analytics_image:latest
+### 4. Outputs
+Check results folder for:
+- data_raw.csv
+- data_preprocessed.csv
+- insights
+- clusters
+- summary plot
 
-```
-
-#Execution flow
-1-Build docker image from Dockerfile
-2-Run the container
-3-Inside the container, run python scripts (python ./ingest.py adult.csv) to start the pipline:
-    * Ingest save data as (`data_raw.csv`)
-    * Preprocess the data (`data_preprocessed.csv`)
-    * Generate insights (`insight1.txt`, `insight2.txt`, `insight3.txt`, `insight4.txt`)
-    * Create visualization (`summary_plot.png`)
-    * Make clusters (`clusters.txt`)
-4- Exit container
-5- Run `bash summary.sh` to copy all output files from container to host folder `results/` and remove the container
-6. Review outputs in `results/`
-
-###sample outputs
-1-Process of the pipline in the terminal:
-Ingest done
-Preprocess done
-Analytics done
-Visualization done
-Clustering done
-2- Exit the container and run the `summary.sh`
-All outputs copied into results folder and container removed successfully!
-3- `result/` contains these :
-`clusters.txt`
-`summary_plot.png`
-`insight1.txt`
-`insight2.txt`
-`insight3.txt`
-`insight4.txt`
-`data_preprocessed.csv`
-`data_raw.csv`
+## 👨‍💻 Authors
+- Yasser Helal
+- Habiba
