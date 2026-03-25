@@ -40,3 +40,12 @@ Check results folder for:
 ## 👨‍💻 Authors
 - Yasser Helal
 - Habiba
+
+### Build Image
+![Build](images/build.png.jpeg)
+
+### Run Container
+![Run](images/run.png.jpeg)
+
+### Push Image
+![Push](images/push.png.jpeg)
