@@ -1,0 +1,2 @@
+Average age: 38.58164675532078
+Average working hours per week: 40.437455852092995

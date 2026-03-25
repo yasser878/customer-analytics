@@ -1,0 +1,3 @@
+Cluster 0: 13896 records -> Higher income, lower education, more working hours
+Cluster 1: 1972 records -> Higher income, lower education, fewer working hours
+Cluster 2: 14271 records -> Higher income, higher education, fewer working hours

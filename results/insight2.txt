@@ -1,0 +1,2 @@
+Correlation between education level and income: 0.33515395269094145
+Correlation between working hours and income: 0.22968906567080943

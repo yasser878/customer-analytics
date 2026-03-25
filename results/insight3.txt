@@ -1,0 +1,12 @@
+High-income individuals tend to be older, more educated, and work more hours per week
+Average values by income groups:
+
+Low income (0) : 
+Age: 36.78
+Education: 9.60
+Hours per week: 38.84
+
+High income (1) : 
+Age: 44.25
+Education: 11.61
+Hours per week: 45.47

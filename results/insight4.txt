@@ -1,0 +1,6 @@
+Individuals with non-zero capital gains are significantly more likely to earn high income
+Capital gain impact on income:
+income
+1    0.618363
+0    0.381637
+Name: proportion, dtype: float64
