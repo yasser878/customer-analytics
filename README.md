@@ -1,12 +1,12 @@
 # Adult Project
 
-## 📌 Description
+##  Description
 This project performs a complete data analytics pipeline on the Adult dataset using Python and Docker.  
 It starts from raw data ingestion, processes and cleans the data, extracts insights, visualizes results, and applies clustering techniques to group similar records.
 
 ---
 
-## 🚀 Features
+##  Features
 - Data ingestion from CSV file
 - Data preprocessing and cleaning
 - Insight generation and statistical analysis
@@ -16,7 +16,7 @@ It starts from raw data ingestion, processes and cleans the data, extracts insig
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -26,13 +26,13 @@ It starts from raw data ingestion, processes and cleans the data, extracts insig
 
 ---
 
-## 📌 Detailed Explanation
+##  Detailed Explanation
 
 The project follows a structured pipeline where data flows through multiple stages to ensure accurate processing and meaningful results.
 
 ---
 
-### 🔹 Data Ingestion
+###  Data Ingestion
 In this stage, the dataset (adult.csv) is loaded into the system using Python scripts.
 
 - The dataset is read using Pandas into a DataFrame  
@@ -44,7 +44,7 @@ This step ensures that the dataset is correctly loaded and ready for processing.
 
 ---
 
-### 🔹 Data Preprocessing
+###  Data Preprocessing
 This is one of the most important stages in the pipeline, where raw data is cleaned and prepared.
 
 - Handling missing or null values  
@@ -57,7 +57,7 @@ The goal is to transform raw data into a clean, consistent, and usable format.
 
 ---
 
-### 🔹 Analytics & Insights
+###  Analytics & Insights
 In this stage, the processed data is analyzed to extract useful information.
 
 - Generating statistical summaries (mean, median, distributions)  
@@ -69,7 +69,7 @@ This step helps in understanding the dataset and discovering hidden patterns.
 
 ---
 
-### 🔹 Visualization
+###  Visualization
 Visualization is used to make the analysis easier to understand.
 
 - Creating plots using Matplotlib  
@@ -81,7 +81,7 @@ This helps in interpreting results visually.
 
 ---
 
-### 🔹 Clustering
+###  Clustering
 Clustering is applied to group similar data points together.
 
 - Using machine learning algorithms such as K-Means  
@@ -93,7 +93,7 @@ This helps in identifying different segments within the dataset.
 
 ---
 
-### 🔹 Output Handling
+###  Output Handling
 All results generated during the pipeline are saved and organized.
 
 - Processed datasets (CSV files)  
@@ -105,7 +105,7 @@ All outputs are stored inside the `results` folder for easy access.
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Build Docker Image
 bash
@@ -125,7 +125,7 @@ Check results folder for:
 - clusters
 - summary plot
 
-## 👨‍💻 Authors
+##  Authors
 - Yasser Helal
 - Habiba Mahdi
 - Habiba Ramadan
