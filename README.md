@@ -1,4 +1,4 @@
-# Customer Analytics Project
+# Adult Project
 
 ## 📌 Description
 This project analyzes customer data using Python and Docker.
